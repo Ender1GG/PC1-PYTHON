@@ -25,9 +25,9 @@ def obtener_tipo_cambio():
             if diferencia > max_diferencia:
                 max_diferencia = diferencia
                 fecha_max_diferencia = fecha
-        print(f"La fecha con el valor de compra mínimo es: {fecha_min_compra} con un valor de compra de {min_compra}")
-        print(f"La fecha con el valor de venta máximo es: {fecha_max_venta} con un valor de venta de {max_venta}")
-        print(f"La fecha con la diferencia máxima entre compra y venta es: {fecha_max_diferencia} con una diferencia de {max_diferencia}")
+        print(f"La fecha con el valor de compra minimo es: {fecha_min_compra} con un valor de compra de {min_compra}")
+        print(f"La fecha con el valor de venta maximo es: {fecha_max_venta} con un valor de venta de {max_venta}")
+        print(f"La fecha con la diferencia maxima entre compra y venta es: {fecha_max_diferencia} con una diferencia de {max_diferencia}")
     
     except requests.RequestException as e:
         print(f"Error al obtener los datos de la API: {e}")

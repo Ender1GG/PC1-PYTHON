@@ -4,7 +4,7 @@ from pyfiglet import Figlet
 def generar_figlet():
     figlet = Figlet()
     fuentes = figlet.getFonts()
-    fuente = input(f"Elija una fuente (de lo contrario se seleccionará aleatoriamente): ")
+    fuente = input(f"Elija una fuente (de lo contrario se seleccionara aleatoriamente): ")
     if not fuente:
         fuente = random.choice(fuentes)
     

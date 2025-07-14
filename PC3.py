@@ -52,8 +52,8 @@ class Circulo:
         return math.pi * self.radio**2
 circulo1 = Circulo(5)
 circulo2 = Circulo(7)
-print(f"Área del primer círculo: {circulo1.calcular_area():.2f}")
-print(f"Área del segundo círculo: {circulo2.calcular_area():.2f}")
+print(f"Area del primer circulo: {circulo1.calcular_area():.2f}")
+print(f"Area del segundo circulo: {circulo2.calcular_area():.2f}")
 #4
 class Rectangulo:
     def __init__(self, largo, ancho):
@@ -68,8 +68,8 @@ class Cuadrado(Rectangulo):
         super().__init__(lado, lado)
 rectangulo = Rectangulo(4, 6)
 cuadrado = Cuadrado(5)
-print(f"Área del rectángulo: {rectangulo.calcular_area()}")
-print(f"Área del cuadrado: {cuadrado.calcular_area()}")
+print(f"Area del rectangulo: {rectangulo.calcular_area()}")
+print(f"Area del cuadrado: {cuadrado.calcular_area()}")
 #5
 class Alumno:
     def __init__(self, nombre, registro):
@@ -80,14 +80,14 @@ class Alumno:
     
     def display(self):
         print(f"Nombre: {self.nombre}")
-        print(f"Número de registro: {self.registro}")
+        print(f"Numero de registro: {self.registro}")
     
     def set_age(self, edad):
         self.edad = edad
     
     def set_nota(self, nota):
         self.nota = nota
-alumno = Alumno("Juan Pérez", 12345)
+alumno = Alumno("Juan Perez", 12345)
 alumno.set_age(20)
 alumno.set_nota(8.5)
 alumno.display()
