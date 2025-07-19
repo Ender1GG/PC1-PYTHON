@@ -1,0 +1,3 @@
+Promedio: 17.83
+Máxima: 22.00
+Mínima: 13.90
