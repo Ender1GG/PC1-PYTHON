@@ -1,0 +1,18 @@
+[
+    {
+        "calidad": "Buena",
+        "cantidad": 36895
+    },
+    {
+        "calidad": "Muy buena",
+        "cantidad": 16784
+    },
+    {
+        "calidad": "Regular",
+        "cantidad": 11397
+    },
+    {
+        "calidad": "Excelente",
+        "cantidad": 423
+    }
+]
